@@ -30,8 +30,10 @@
 
 .content_page {
     width: 75%;
+    /*margin-left: 20%;*/
+    /*margin-top: 10%;*/
     margin-left: 20%;
-    margin-top: 10%;
+    margin-right: 20%;
     position: absolute;
 
     /*border-width: 3px;*/
@@ -43,7 +45,6 @@
 .content_page .content {
     display: flex;
     width: 100%;
-
 
     border-width: 3px;
     border: dimgray;
@@ -82,6 +83,13 @@
     height: 100%;
     overflow: auto;
 
+}
+
+.new_content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
 }
 
 
